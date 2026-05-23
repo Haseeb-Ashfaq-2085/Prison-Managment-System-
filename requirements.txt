@@ -1,0 +1,21 @@
+# Prison Management System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Framework
+streamlit==1.29.0
+
+# Database
+pyodbc==5.0.1
+pandas==2.1.4
+
+# Email (built-in with Python, no separate install needed)
+# smtplib - included with Python
+# email - included with Python
+
+# Additional Utilities
+python-dateutil==2.8.2
+openpyxl==3.1.2          # For Excel export (optional)
+
+# Development Tools (optional)
+black==23.12.1           # Code formatter
+flake8==7.0.0            # Linter
